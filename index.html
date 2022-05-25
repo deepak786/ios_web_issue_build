@@ -34,7 +34,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1186935633';
+    var serviceWorkerVersion = '3864943102';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -70,12 +70,12 @@
       }
       @keyframes breathe { from { transform: scale(1) } to { transform: scale(0.95)}}
       @keyframes zooooom { from { transform: scale(1) } to { transform: scale(10)}}
-  </style>
+      </style>
   <img src="icons/Icon-192.png" alt="Loading..." />
 </div>
 
 <script>
-    window.addEventListener('load', function() {
+    window.addEventListener('load', function(ev) {
       var loading = document.querySelector('#loading');
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
